@@ -1,23 +1,23 @@
 class Solution {
 
-    public static List<String> generate(char[] ch , int n,int opened ,int closed ,List<String> l)
+    public static List<String> generate(char[] ch ,int k, int n,int opened ,int closed ,List<String> l)
     {
-        if(opened == 0 && closed == 0)
+        if(opened == k && closed == k)
         {
             String s = new String(ch);
             l.add(s);
             return l ;
         }
 
-        if(opened != 0)
+        if(opened != k)
         {
             ch[n] = '(';
-            generate(ch , n+1 , opened-1 , closed , l);
+            generate(ch ,k, n+1 , opened+1 , closed , l);
         }
-        if(closed > opened)
+        if(closed < opened)
         {
             ch[n] = ')';
-            generate(ch , n+1 , opened , closed-1 , l);
+            generate(ch ,k, n+1 , opened , closed+1 , l);
         }
         return l;
        
@@ -27,6 +27,6 @@ class Solution {
         
         List<String> l = new ArrayList<>();
         char[] ch = new char[2*n];
-        return generate(ch , 0 , n, n , l);
+        return generate(ch ,n, 0 , 0, 0 , l);
     }
 }
