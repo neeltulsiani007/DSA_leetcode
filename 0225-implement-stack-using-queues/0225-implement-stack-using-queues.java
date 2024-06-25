@@ -9,6 +9,9 @@ Queue<Integer> q2 ;
     
     public void push(int x) {
         q1.add(x);
+        System.out.println(q1);
+        System.out.println();
+        System.out.println(q2);
         while(!q2.isEmpty())
         {
             q1.add(q2.peek());
