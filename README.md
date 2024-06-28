@@ -107,3 +107,22 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0735-asteroid-collision](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0735-asteroid-collision) |
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## String
+|  |
+| ------- |
+| [0402-remove-k-digits](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0402-remove-k-digits) |
+## Stack
+|  |
+| ------- |
+| [0402-remove-k-digits](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0402-remove-k-digits) |
+## Greedy
+|  |
+| ------- |
+| [0402-remove-k-digits](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0402-remove-k-digits) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0402-remove-k-digits](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0402-remove-k-digits) |
+<!---LeetCode Topics End-->
