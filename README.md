@@ -117,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0402-remove-k-digits](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0402-remove-k-digits) |
+| [2227-sum-of-subarray-ranges](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/2227-sum-of-subarray-ranges) |
 ## Greedy
 |  |
 | ------- |
@@ -125,4 +126,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0402-remove-k-digits](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0402-remove-k-digits) |
+| [2227-sum-of-subarray-ranges](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/2227-sum-of-subarray-ranges) |
+## Array
+|  |
+| ------- |
+| [2227-sum-of-subarray-ranges](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/2227-sum-of-subarray-ranges) |
 <!---LeetCode Topics End-->
