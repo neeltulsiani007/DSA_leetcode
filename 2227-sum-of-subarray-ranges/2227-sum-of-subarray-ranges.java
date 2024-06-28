@@ -59,7 +59,7 @@ class Solution {
         {
             sm+=left[i]*right[i]*nums[i];
         }
-        System.out.println(sm);
+       // System.out.println(sm);
 
          Stack<Pair> st3 = new Stack<>();
          Stack<Pair> st4 = new Stack<>();
@@ -95,7 +95,7 @@ class Solution {
         {
             sma+=left[i]*right[i]*nums[i];
         }
-        System.out.println(sma);
+       // System.out.println(sma);
 
 
       return (long)(sma-sm);
