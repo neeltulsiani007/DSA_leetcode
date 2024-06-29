@@ -123,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0402-remove-k-digits](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0402-remove-k-digits) |
 | [0455-assign-cookies](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0455-assign-cookies) |
+| [0890-lemonade-change](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0890-lemonade-change) |
 | [3231-minimum-number-of-coins-to-be-added](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/3231-minimum-number-of-coins-to-be-added) |
 ## Monotonic Stack
 |  |
@@ -133,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0455-assign-cookies](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0455-assign-cookies) |
+| [0890-lemonade-change](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0890-lemonade-change) |
 | [2227-sum-of-subarray-ranges](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/2227-sum-of-subarray-ranges) |
 | [3231-minimum-number-of-coins-to-be-added](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/3231-minimum-number-of-coins-to-be-added) |
 ## Two Pointers
