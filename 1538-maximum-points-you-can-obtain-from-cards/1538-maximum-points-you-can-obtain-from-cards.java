@@ -15,12 +15,12 @@ class Solution {
             c++;
         }
         ans = lsum;
-        System.out.println(ans);
+     
         c =0;
         i = k-1;
         while(c!=k)
         {
-            System.out.println(ans);
+
             lsum-=arr[i];
             i--;
             rsum+=arr[j];
