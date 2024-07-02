@@ -114,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0402-remove-k-digits](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0402-remove-k-digits) |
+| [0424-longest-repeating-character-replacement](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0678-valid-parenthesis-string](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0678-valid-parenthesis-string) |
 ## Stack
 |  |
@@ -165,10 +166,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0424-longest-repeating-character-replacement](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0424-longest-repeating-character-replacement) |
 ## Sliding Window
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0424-longest-repeating-character-replacement](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [1046-max-consecutive-ones-iii](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1046-max-consecutive-ones-iii) |
 ## Binary Search
 |  |
