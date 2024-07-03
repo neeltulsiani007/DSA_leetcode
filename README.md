@@ -119,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0042-trapping-rain-water) |
 | [0094-binary-tree-inorder-traversal](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0145-binary-tree-postorder-traversal) |
@@ -138,11 +139,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0042-trapping-rain-water) |
 | [0402-remove-k-digits](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0402-remove-k-digits) |
 | [2227-sum-of-subarray-ranges](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/2227-sum-of-subarray-ranges) |
 ## Array
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0055-jump-game) |
 | [0455-assign-cookies](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0455-assign-cookies) |
@@ -157,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0042-trapping-rain-water) |
 | [0455-assign-cookies](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0455-assign-cookies) |
 ## Sorting
 |  |
@@ -166,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0055-jump-game) |
 | [0678-valid-parenthesis-string](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0678-valid-parenthesis-string) |
