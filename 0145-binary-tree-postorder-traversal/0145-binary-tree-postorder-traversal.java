@@ -17,27 +17,29 @@ class Solution {
     public List<Integer> postorderTraversal(TreeNode root) {
 
         List<Integer> l = new ArrayList<Integer>();
-        Stack<TreeNode> st1 = new Stack<>();
-        Stack<TreeNode> st2 = new Stack<>();
+        Stack<TreeNode> st = new Stack<>();
 
         if(root == null)
         return l;
 
-        st1.push(root);
+        TreeNode curr = root;
 
-        while(!st1.isEmpty())
+        while(curr != null || !st.isEmpty())
         {
-            TreeNode curr = st1.pop();
-            st2.push(curr);
-            if(curr.left != null)
-            st1.push(curr.left);
-            if(curr.right != null)
-            st1.push(curr.right);
-            
+       
+            if(curr!= null)
+            {
+                l.add(curr.val);
+                st.push(curr);
+                curr = curr.right;
+            }
+            else
+            {
+                curr = st.pop();
+                curr = curr.left;
+            }
         }
-
-        while(!st2.isEmpty())
-        l.add(st2.pop().val);
+       Collections.reverse(l);
 
         return l;
     }
