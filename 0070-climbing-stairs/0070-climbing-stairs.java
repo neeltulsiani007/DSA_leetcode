@@ -1,16 +1,24 @@
 class Solution {
+
+    public int fun(int n , int[] memo)
+    {
+        if(memo[n] == -1)
+        {
+            int res;
+            if(n == 1 || n==2)
+            res = n;
+            else
+            res = fun(n-1 , memo)+fun(n-2,memo);
+
+            memo[n] = res;
+        }
+        return memo[n];
+    }
     public int climbStairs(int n) {
         
-        int f[] =new int[n+1];
-        if(n == 1 || n==2)
-        return n;
-        f[1] = 1;
-        f[2] = 2;
+        int[] memo = new int[n+1];
+        Arrays.fill(memo , -1);
+        return fun(n , memo);
 
-        for(int i = 3 ;i<=n;i++)
-        {
-            f[i] = f[i-1] + f[i-2] ;
-        }
-        return f[n];
     }
 }
