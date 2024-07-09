@@ -176,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0055-jump-game) |
+| [0070-climbing-stairs](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0070-climbing-stairs) |
 | [0678-valid-parenthesis-string](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0678-valid-parenthesis-string) |
 ## Hash Table
 |  |
@@ -210,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0070-climbing-stairs) |
 | [1370-count-number-of-nice-subarrays](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 ## Counting
 |  |
@@ -314,4 +316,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0222-count-complete-tree-nodes](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0222-count-complete-tree-nodes) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
