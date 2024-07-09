@@ -1,6 +1,7 @@
 class Solution {
+
     public int rob(int[] nums) {
-        
+       
         int n = nums.length;
         if(n == 1)
         return nums[0];
@@ -18,4 +19,5 @@ class Solution {
 
         return f[n];
     }
+    
 }
