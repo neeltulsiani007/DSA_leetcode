@@ -10,29 +10,33 @@ class Solution {
             if(i < day)
             {
                 c++;
-                if(c == k)
-                {
-                    t++;
-                    c = 0;
-                    continue;
-                }
             }
             else
             {
+                t+=(c/k);
                 c = 0;
             }
         }
+        t+=c/k;
         return t>=m?true:false;
     }
 
     public int minDays(int[] arr, int m, int k) 
     {
-        List<Integer> l = new ArrayList<>();
-        for(int i : arr)
-        l.add(i);
-        int start = Collections.min(l);
-        int end = Collections.max(l)+1;
+        if(arr.length < m*k)
+        return -1;
+        
+        int start = arr[0];
+        int end = arr[0];
+        for(int i =1;i<arr.length;i++)
+        {
+            if(arr[i] > end)
+            end = arr[i];
+            if(arr[i] < start)
+            start = arr[i];
+        }
         int ans = 0;
+        end+=1;
 
         while(start <= end)
         {
