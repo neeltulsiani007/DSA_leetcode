@@ -163,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1370-count-number-of-nice-subarrays](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
+| [1646-kth-missing-positive-number](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1646-kth-missing-positive-number) |
 | [2227-sum-of-subarray-ranges](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/2227-sum-of-subarray-ranges) |
 | [3231-minimum-number-of-coins-to-be-added](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/3231-minimum-number-of-coins-to-be-added) |
 ## Two Pointers
@@ -214,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-max-consecutive-ones-iii](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
+| [1646-kth-missing-positive-number](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1646-kth-missing-positive-number) |
 ## Prefix Sum
 |  |
 | ------- |
