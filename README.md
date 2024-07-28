@@ -132,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0055-jump-game) |
 | [0402-remove-k-digits](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0402-remove-k-digits) |
+| [0410-split-array-largest-sum](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0410-split-array-largest-sum) |
 | [0455-assign-cookies](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0455-assign-cookies) |
 | [0678-valid-parenthesis-string](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0890-lemonade-change](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0890-lemonade-change) |
@@ -153,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0410-split-array-largest-sum](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0410-split-array-largest-sum) |
 | [0455-assign-cookies](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0455-assign-cookies) |
 | [0890-lemonade-change](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0890-lemonade-change) |
 | [0907-koko-eating-bananas](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0907-koko-eating-bananas) |
@@ -187,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0070-climbing-stairs) |
 | [0198-house-robber](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0213-house-robber-ii) |
+| [0410-split-array-largest-sum](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0410-split-array-largest-sum) |
 | [0678-valid-parenthesis-string](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0678-valid-parenthesis-string) |
 ## Hash Table
 |  |
@@ -212,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0222-count-complete-tree-nodes](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0222-count-complete-tree-nodes) |
+| [0410-split-array-largest-sum](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0410-split-array-largest-sum) |
 | [0907-koko-eating-bananas](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0907-koko-eating-bananas) |
 | [1046-max-consecutive-ones-iii](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
@@ -221,6 +225,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0410-split-array-largest-sum](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0410-split-array-largest-sum) |
 | [0966-binary-subarrays-with-sum](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
