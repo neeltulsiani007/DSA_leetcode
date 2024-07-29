@@ -162,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0322-coin-change) |
 | [0410-split-array-largest-sum](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0410-split-array-largest-sum) |
 | [0455-assign-cookies](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0455-assign-cookies) |
+| [0494-target-sum](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0494-target-sum) |
 | [0890-lemonade-change](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0890-lemonade-change) |
 | [0907-koko-eating-bananas](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0907-koko-eating-bananas) |
 | [0966-binary-subarrays-with-sum](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0966-binary-subarrays-with-sum) |
@@ -197,6 +198,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0213-house-robber-ii](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0213-house-robber-ii) |
 | [0322-coin-change](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0322-coin-change) |
 | [0410-split-array-largest-sum](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0410-split-array-largest-sum) |
+| [0494-target-sum](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0494-target-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0583-delete-operation-for-two-strings) |
 | [0678-valid-parenthesis-string](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0678-valid-parenthesis-string) |
@@ -357,4 +359,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0070-climbing-stairs) |
+## Backtracking
+|  |
+| ------- |
+| [0494-target-sum](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0494-target-sum) |
 <!---LeetCode Topics End-->
