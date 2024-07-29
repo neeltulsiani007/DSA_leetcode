@@ -70,7 +70,6 @@ class Solution {
         return sfin.reverse().toString();
     } 
     public String shortestCommonSupersequence(String str1, String str2) {
-        return lcs(str1,str2);
-        
+        return lcs(str1,str2); 
     }
 }
