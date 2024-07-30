@@ -118,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0516-longest-palindromic-subsequence](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0583-delete-operation-for-two-strings) |
 | [0678-valid-parenthesis-string](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0678-valid-parenthesis-string) |
+| [1129-longest-string-chain](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1170-shortest-common-supersequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 ## Stack
@@ -171,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1034-subarrays-with-k-different-integers](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
+| [1129-longest-string-chain](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1129-longest-string-chain) |
 | [1370-count-number-of-nice-subarrays](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
@@ -183,12 +185,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0042-trapping-rain-water](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0042-trapping-rain-water) |
 | [0455-assign-cookies](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0455-assign-cookies) |
+| [1129-longest-string-chain](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1129-longest-string-chain) |
 ## Sorting
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0368-largest-divisible-subset](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0368-largest-divisible-subset) |
 | [0455-assign-cookies](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0455-assign-cookies) |
+| [1129-longest-string-chain](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1129-longest-string-chain) |
 | [3231-minimum-number-of-coins-to-be-added](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/3231-minimum-number-of-coins-to-be-added) |
 ## Dynamic Programming
 |  |
@@ -207,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0516-longest-palindromic-subsequence](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0583-delete-operation-for-two-strings) |
 | [0678-valid-parenthesis-string](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0678-valid-parenthesis-string) |
+| [1129-longest-string-chain](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1170-shortest-common-supersequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 ## Hash Table
@@ -218,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0966-binary-subarrays-with-sum](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1034-subarrays-with-k-different-integers) |
+| [1129-longest-string-chain](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1129-longest-string-chain) |
 | [1370-count-number-of-nice-subarrays](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 ## Sliding Window
 |  |
