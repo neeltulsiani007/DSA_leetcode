@@ -113,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0072-edit-distance](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0072-edit-distance) |
 | [0402-remove-k-digits](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0402-remove-k-digits) |
 | [0424-longest-repeating-character-replacement](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0516-longest-palindromic-subsequence](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0516-longest-palindromic-subsequence) |
@@ -210,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0055-jump-game) |
 | [0070-climbing-stairs](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0070-climbing-stairs) |
+| [0072-edit-distance](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0072-edit-distance) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
