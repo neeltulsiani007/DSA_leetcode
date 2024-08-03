@@ -198,6 +198,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1646-kth-missing-positive-number](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1646-kth-missing-positive-number) |
+| [1878-check-if-array-is-sorted-and-rotated](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2227-sum-of-subarray-ranges](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/2227-sum-of-subarray-ranges) |
 | [3231-minimum-number-of-coins-to-be-added](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/3231-minimum-number-of-coins-to-be-added) |
 ## Two Pointers
