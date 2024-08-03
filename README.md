@@ -187,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0455-assign-cookies) |
 | [0494-target-sum](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0518-coin-change-ii) |
+| [0560-subarray-sum-equals-k](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0890-lemonade-change](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0890-lemonade-change) |
@@ -268,6 +269,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0169-majority-element) |
 | [0424-longest-repeating-character-replacement](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0424-longest-repeating-character-replacement) |
+| [0560-subarray-sum-equals-k](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1129-longest-string-chain](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1129-longest-string-chain) |
@@ -299,6 +301,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0410-split-array-largest-sum) |
+| [0560-subarray-sum-equals-k](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
