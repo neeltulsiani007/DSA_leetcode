@@ -186,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0455-assign-cookies](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0455-assign-cookies) |
+| [0493-reverse-pairs](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0493-reverse-pairs) |
 | [0494-target-sum](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0518-coin-change-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0560-subarray-sum-equals-k) |
@@ -294,6 +295,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0222-count-complete-tree-nodes](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0300-longest-increasing-subsequence](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0410-split-array-largest-sum](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0410-split-array-largest-sum) |
+| [0493-reverse-pairs](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0493-reverse-pairs) |
 | [0907-koko-eating-bananas](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0907-koko-eating-bananas) |
 | [1046-max-consecutive-ones-iii](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
@@ -397,6 +399,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0169-majority-element](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0493-reverse-pairs](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0493-reverse-pairs) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -414,6 +417,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0023-merge-k-sorted-lists) |
+| [0493-reverse-pairs](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0493-reverse-pairs) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -438,10 +442,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Indexed Tree
 |  |
 | ------- |
+| [0493-reverse-pairs](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0493-reverse-pairs) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 ## Segment Tree
 |  |
 | ------- |
+| [0493-reverse-pairs](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0493-reverse-pairs) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 ## Recursion
 |  |
@@ -466,4 +472,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0547-number-of-provinces) |
+## Ordered Set
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0493-reverse-pairs) |
 <!---LeetCode Topics End-->
