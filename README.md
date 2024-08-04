@@ -165,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0056-merge-intervals) |
 | [0063-unique-paths-ii](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0064-minimum-path-sum) |
+| [0073-set-matrix-zeroes](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0088-merge-sorted-array](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0088-merge-sorted-array) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -275,6 +276,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0073-set-matrix-zeroes](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0128-longest-consecutive-sequence](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0128-longest-consecutive-sequence) |
@@ -469,6 +471,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0063-unique-paths-ii](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0064-minimum-path-sum) |
+| [0073-set-matrix-zeroes](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0967-minimum-falling-path-sum](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0967-minimum-falling-path-sum) |
 ## Union Find
 |  |
