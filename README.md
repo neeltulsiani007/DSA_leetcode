@@ -214,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1646-kth-missing-positive-number](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1646-kth-missing-positive-number) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
+| [2047-find-a-peak-element-ii](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/2047-find-a-peak-element-ii) |
 | [2227-sum-of-subarray-ranges](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/2227-sum-of-subarray-ranges) |
 | [3231-minimum-number-of-coins-to-be-added](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/3231-minimum-number-of-coins-to-be-added) |
 ## Two Pointers
@@ -317,6 +318,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1646-kth-missing-positive-number](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1646-kth-missing-positive-number) |
+| [2047-find-a-peak-element-ii](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/2047-find-a-peak-element-ii) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -485,6 +487,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0240-search-a-2d-matrix-ii](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0967-minimum-falling-path-sum](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0967-minimum-falling-path-sum) |
+| [2047-find-a-peak-element-ii](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/2047-find-a-peak-element-ii) |
 ## Union Find
 |  |
 | ------- |
