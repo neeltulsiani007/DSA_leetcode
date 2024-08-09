@@ -1,97 +1,48 @@
 class Solution {
+
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+           
+        int m = nums1.length;
+        int n = nums2.length;  
+        if (m > n) return findMedianSortedArrays(nums2, nums1); 
+        int total = m+n;
+        int tp = (total+1)/2;
+        int low = 0;
+        int high = m;
 
-        int t = nums1.length+nums2.length;
-        int c1 = -1, c2 = -1;
-        int val1 = 0;
-        int val2 = 0;
-        int count = 0;
 
-        if(t%2 == 0)
+        while(low <= high)
         {
-            c2 = t/2;
-            c1 = c2-1;
-        }
-        else
-        c1= t/2;
+            int mid1 = (low+high)/2;
+            int mid2 = tp - mid1;
 
-        int i =0;
-        int j =0;
-        
-        while(i<nums1.length && j<nums2.length)
-        {
+            int l1 = (mid1 > 0) ? nums1[mid1 - 1] : Integer.MIN_VALUE;
+            int l2 = (mid2 > 0) ? nums2[mid2 - 1] : Integer.MIN_VALUE;
+            int r1 = (mid1 < m) ? nums1[mid1] : Integer.MAX_VALUE;
+            int r2 = (mid2 < n && mid2>=0) ? nums2[mid2] : Integer.MAX_VALUE;
 
-           // System.out.println(nums1[i] + " " + nums2[j]);
-
-            if(nums1[i] <= nums2[j])
+            if(l1 <= r2 && l2 <= r1)
             {
-                
-                if(count == c1)
+                if(total%2 == 0)
                 {
-                    val1 = nums1[i];
-                 //   System.out.println(val1);
+                    int t1 = Math.max(l1,l2);
+                    int t2 = Math.min(r1,r2);
+
+                    return (double)(t1+t2)/2.0;
+
                 }
-                if(count == c2)
+                else
                 {
-                    val2 = nums1[i];
+                    return Math.max(l1,l2);
                 }
-                count++;
-                i++;  
+            }
+            else if(l1 > r2)
+            {
+                high = mid1-1;
             }
             else
-            {
-                
-                if(count == c1)
-                {
-                   
-                    val1 = nums2[j];
-                 //    System.out.println(val1);
-                }
-                if(count == c2)
-                {
-                    val2 = nums2[j];
-                }
-                count++;
-                j++; 
-            }
+            low = mid1+1;
         }
-
-        while(i<nums1.length)
-        {
-            
-                if(count == c1)
-                {
-                    val1 = nums1[i];
-                }
-                if(count == c2)
-                {
-                    val2 = nums1[i];
-                }
-                count++;
-                i++; 
-        }
-
-        while(j<nums2.length)
-        {
-             
-                if(count == c1)
-                {
-                    val1 = nums2[j];
-                }
-                if(count == c2)
-                {
-                    val2 = nums2[j];
-              //      System.out.println(val2);
-                }
-                count++;
-                j++; 
-        }
-
-       if(val2 != 0)
-       {
-        return (double)(val1+val2)/2;
-       }
-       else
-       return val1;
+        return 0;   
     }
 }
