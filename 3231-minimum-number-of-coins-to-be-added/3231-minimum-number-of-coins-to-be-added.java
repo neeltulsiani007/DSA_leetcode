@@ -2,23 +2,25 @@ class Solution {
     public int minimumAddedCoins(int[] coins, int target) {
         Arrays.sort(coins);
 
-        int cs = 0;
-        int nas = 0;
-        int i =0;
+        int cm = 0;
+        int ans = 0;
+        int index = 0;
 
-        while(cs < target)
+        while(cm < target)
         {
-            if(i<(coins.length) && coins[i] <= (cs+1))
+            if(index < coins.length && coins[index] <= cm+1)
             {
-                cs+=coins[i];
-                i++;
+                cm += coins[index];
+                index++;
             }
             else
             {
-                nas++;
-                cs+=cs+1;
+                ans++;
+                cm += cm+1;
             }
         }
-        return nas;
+
+        return ans;
+      
     }
 }
