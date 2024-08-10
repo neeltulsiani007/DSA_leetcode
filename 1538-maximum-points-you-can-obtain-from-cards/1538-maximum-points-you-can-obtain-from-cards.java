@@ -1,33 +1,24 @@
 class Solution {
     public int maxScore(int[] arr, int k) {
         
-        int lsum = 0;
-        int rsum = 0;
-        int c = 0;
-        int i =0;
-        int ans = 0;
-        int j = arr.length-1;
 
-        while(c!=k)
-        {
-            lsum+=arr[i];
-            i++;
-            c++;
-        }
-        ans = lsum;
-     
-        c =0;
-        i = k-1;
-        while(c!=k)
-        {
+        int l = k-1;
+        int sum = 0;
+       
+        for(int i = 0;i<k;i++)
+        sum+=arr[i];
+         int max = sum;
 
-            lsum-=arr[i];
-            i--;
-            rsum+=arr[j];
-            j--;
-            c++;
-            ans = Math.max(lsum+rsum , ans);
+        // System.out.println(sum);
+
+        for(int i = arr.length-1;i>=arr.length-k;i--)
+        {
+            //System.out.println(sum);
+            sum = sum - arr[l] + arr[i];
+            max = Math.max(max , sum);
+            l--;
         }
-        return ans;
+
+        return max;
     }
 }
