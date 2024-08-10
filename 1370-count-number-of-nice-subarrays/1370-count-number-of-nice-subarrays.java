@@ -1,34 +1,34 @@
 class Solution {
 
-    public static int sliding(int[] arr , int k)
+    public int sliding (int[] arr , int k)
     {
-
-        if(k < 0)
+        int l = 0;
+        int i = 0;
+        int count = 0;
+        int ans = 0;
+        if(k<0)
         return 0;
-
-        int l =0;
-        int i =0;
-        int c = 0;
-        int oddcount = 0;
 
         while(i<arr.length)
         {
-            if(arr[i] %2 != 0)
-            oddcount++;
-            
-            while(oddcount > k)
+            if(arr[i] % 2 != 0)
+            count++;
+
+            while(count > k)
             {
-                if(arr[l] % 2 !=0)
-                oddcount--;
+                if(arr[l] % 2 != 0)
+                count --;
                 l++;
             }
 
-            c+=i-l+1;
+            ans += i-l+1;
             i++;
         }
-        return c;
+
+        return ans;
     }
     public int numberOfSubarrays(int[] nums, int k) {
-        return sliding(nums,k) - sliding(nums,k-1);
+        
+        return sliding(nums , k) - sliding(nums , k-1);
     }
 }
