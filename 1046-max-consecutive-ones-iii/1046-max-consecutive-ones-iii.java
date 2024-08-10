@@ -1,31 +1,34 @@
 class Solution {
-    public int longestOnes(int[] arr, int k) {
-        int l = 0;
-        int max=0;
-        int r;
-        int z = 0;
 
-        for( r = 0;r<arr.length;r++)
+    public int longestOnes(int[] arr, int k) {
+        
+
+        int max = Integer.MIN_VALUE;
+        int currmax = 0;
+
+        int l = 0;
+
+        int r = 0;
+        
+
+        for(r=0;r<arr.length;r++)
         {
-            if(arr[r] == 1)
+            if(arr[r] == 0 && k == 0)
             {
-                continue;
-            }
-            else if(arr[r] == 0 && k!=z)
-            {
-                z++;
-                continue;
+                max = Math.max(max , r-l);
+                while(arr[l] != 0)
+                {
+                    l++;
+                }
+                l++;
             }
             else
             {
-                //System.out.println(r);
-                max = Math.max(max , r-l);
-                while(arr[l] != 0)
-                l++;
-             
-                l++;
+                if(arr[r] != 1)
+                k--;
             }
         }
-        return Math.max(max,r-l);
+
+        return Math.max(max , r-l);
     }
 }
