@@ -343,6 +343,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0029-divide-two-integers](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0029-divide-two-integers) |
 | [0048-rotate-image](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0062-unique-paths) |
@@ -464,6 +465,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0029-divide-two-integers](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0029-divide-two-integers) |
 | [0136-single-number](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0136-single-number) |
 | [0222-count-complete-tree-nodes](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0222-count-complete-tree-nodes) |
 ## Memoization
