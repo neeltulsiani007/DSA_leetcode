@@ -189,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0169-majority-element) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0198-house-robber](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0198-house-robber) |
+| [0204-count-primes](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0204-count-primes) |
 | [0213-house-robber-ii](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0240-search-a-2d-matrix-ii) |
@@ -345,6 +346,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0048-rotate-image) |
 | [0062-unique-paths](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0070-climbing-stairs) |
+| [0204-count-primes](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0204-count-primes) |
 | [0368-largest-divisible-subset](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0368-largest-divisible-subset) |
 | [1370-count-number-of-nice-subarrays](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 ## Counting
@@ -518,4 +520,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0054-spiral-matrix) |
+## Enumeration
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0204-count-primes) |
+## Number Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
