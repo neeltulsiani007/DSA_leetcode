@@ -175,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0074-search-a-2d-matrix) |
+| [0078-subsets](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0078-subsets) |
 | [0088-merge-sorted-array](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0088-merge-sorted-array) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -467,6 +468,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0029-divide-two-integers](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0029-divide-two-integers) |
+| [0078-subsets](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0078-subsets) |
 | [0136-single-number](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0136-single-number) |
 | [0222-count-complete-tree-nodes](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/2323-minimum-bit-flips-to-convert-number) |
@@ -477,6 +479,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0078-subsets](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0078-subsets) |
 | [0494-target-sum](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0494-target-sum) |
 ## Binary Indexed Tree
 |  |
