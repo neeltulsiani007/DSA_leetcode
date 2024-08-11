@@ -113,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0008-string-to-integer-atoi](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0008-string-to-integer-atoi) |
 | [0044-wildcard-matching](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0115-distinct-subsequences) |
