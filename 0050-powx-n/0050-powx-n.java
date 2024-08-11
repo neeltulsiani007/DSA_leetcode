@@ -1,17 +1,29 @@
 class Solution {
-    public double myPow(double x, int n) {
+    public double myPow(double x, int t1) {
+
+        double ans = 1;
+        long t = t1;
+        long n = t1;
+       
+       if(n<0)
+       {
+        n*=-1;
+       }
         
-        if(n == 0)
-        return 1;   
-        long N = n;
-        if(N<0)
+        while(n>0)
         {
-            N = -N;
-            x = 1/x;
+            if(n%2 != 0)
+            {
+                ans*=x;
+                n-=1;
+            }
+            else
+            {
+                x*=x;
+                n=n/2;
+            }
         }
-        if(N%2 == 0)
-        return myPow(x*x , (int)(N/2));
-        else
-        return x*myPow(x , (int)(N-1));    
+
+        return t < 0 ? 1 / ans : ans;
     }
 }
