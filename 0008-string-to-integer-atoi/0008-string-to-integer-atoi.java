@@ -1,80 +1,35 @@
 class Solution {
+    public int myAtoi(String s) {
+        s = s.trim(); // Remove leading and trailing whitespace
+        if (s.isEmpty()) return 0; // Return 0 if the string is empty after trimming
+        return atoiRecursive(s, 0, 1, 0); // Call the recursive helper function
+    }
 
-    public int ans(char[] c , int i , int n , int sign , long fin)
-    {
-        int max = Integer.MAX_VALUE;
-        int min = Integer.MIN_VALUE;
-
-        if(i == n)
-        {
-           if(fin*sign > max)
-           return max;
-           else if(fin*sign < min)
-           return min;
-           else
-           return (int)fin*sign;
-        }
-        if(c[i] == '-' && i == 0)
-        {
-            sign = -1;
-            return ans(c , i+1 , n , sign , fin);
-        }
-        else if(c[i] == '-' && i != 0)
-        {
-            return (int)fin*sign;
-        }
-        if(c[i] == '+' && i == 0)
-        {
-            sign = 1;
-            return ans(c , i+1 , n , sign , fin);
-        }
-        else if(c[i] == '+' && i != 0)
-        {
-            return (int)fin*sign;
+    public int atoiRecursive(String s, int idx, int sign, long res) {
+        if (idx == s.length()) return (int) (sign * res); // Base case: return the final result
+        
+        char c = s.charAt(idx); // Get the character at index idx
+        
+        if (Character.isDigit(c)) {
+            // If the character is a digit, update the result
+            res = (res * 10) + (c - '0');
+            
+            // Check for overflow/underflow
+            if (res * sign > Integer.MAX_VALUE) return Integer.MAX_VALUE;
+            if (res * sign < Integer.MIN_VALUE) return Integer.MIN_VALUE;
+            
+            // Continue recursively with the next character
+            return atoiRecursive(s, idx + 1, sign, res);
+        } else if (idx == 0 && (c == '+' || c == '-')) {
+            // If the character is '+' or '-' and it's the first character, update the sign
+            if (c == '-') sign = -1;
+            
+            // Continue recursively with the next character
+            return atoiRecursive(s, idx + 1, sign, res);
         }
         
-        else if(c[i] == '0')
-        {
-            if(fin == 0)
-            return ans(c , i+1 , n , sign , fin);
-            else {
-                fin = fin*10 + Character.getNumericValue(c[i]);
-                if(fin*sign > max)
-                return max;
-                else if(fin*sign < min)
-                return min;
-                else
-                return ans(c , i+1 , n , sign , fin);
-            }
-        }
-        else if(c[i] == '1' || c[i] == '2' || c[i] == '3' || c[i] == '4' || c[i] == '5' || c[i] == '6' || c[i] == '7' || c[i] == '8' || c[i] == '9')
-        {
-                fin = fin*10 + Character.getNumericValue(c[i]);
-                System.out.println(fin*sign);
-                if(fin*sign > max)
-                return max;
-                else if(fin*sign < min){
-                return min;
-                }
-                else
-                return ans(c , i+1 , n , sign , fin);
-        }
-        else
-        {
-           if(fin*sign > max)
-           return max;
-           else if(fin*sign < min)
-           return min;
-           else
-           return (int)fin*sign;
-        }
-    }
-    public int myAtoi(String s) {
-        s = s.trim();
-        if(s.isEmpty())
-        {
-            return 0;
-        }
-        return ans(s.toCharArray() , 0 , s.length(),1,0);
+        // If the character is not a digit and it's not the first character,
+        // or if it's an invalid character, return the current result
+        return (int) (sign * res);
     }
 }
