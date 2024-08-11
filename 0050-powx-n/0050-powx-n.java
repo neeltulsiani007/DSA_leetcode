@@ -1,29 +1,26 @@
 class Solution {
-    public double myPow(double x, int t1) {
 
-        double ans = 1;
-        long t = t1;
-        long n = t1;
-       
-       if(n<0)
+    public double ans(double x , long n)
+    {
+       if(n == 0)
+       return 1;
+
+       if(n%2 == 0)
        {
-        n*=-1;
+            return ans(x*x , n/2);
        }
-        
-        while(n>0)
-        {
-            if(n%2 != 0)
-            {
-                ans*=x;
-                n-=1;
-            }
-            else
-            {
-                x*=x;
-                n=n/2;
-            }
-        }
+       else
+       {
+            return x*ans(x , n-1);
+       }
+    }
+    public double myPow(double x, int n) {
 
-        return t < 0 ? 1 / ans : ans;
+
+        if(n < 0)
+        return ans(1/x , Math.abs((long)n));
+
+
+        return ans(x , Math.abs((long)n));
     }
 }
