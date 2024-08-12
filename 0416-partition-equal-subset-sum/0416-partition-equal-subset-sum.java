@@ -1,41 +1,30 @@
 class Solution {
+
+    public boolean ans(int[] arr , int ind , int sum , Boolean[][] memo)
+    {
+        if(sum == 0)
+        return true;
+        if(ind >= arr.length || sum < 0)
+        return false;
+
+        if(memo[ind][sum]!=null) return memo[ind][sum];
+
+        boolean np = ans(arr , ind+1 , sum , memo);
+        boolean p = false;
+        if(sum - arr[ind] >=0)
+        p = ans(arr , ind+1 , sum-arr[ind] , memo);
+
+        return memo[ind][sum] = np || p;
+    }
     public boolean canPartition(int[] nums) {
         
         int sum = 0;
         for(int i : nums)
         sum+=i;
+        if(sum%2!=0) return false;
 
-        if(sum%2 != 0)
-        return false;
-        
-        int target = sum/2;
+        Boolean[][] memo = new Boolean[nums.length+1][sum/2+1];
 
-        boolean [][] dp = new boolean[nums.length+1][target+1];
-
-        for(int i = 0;i<=nums.length;i++)
-        {
-            dp[i][0] = true;
-        }
-
-        for(int j =1;j<=target;j++)
-        {
-            dp[0][j] = false;
-        }
-
-        for(int i =1 ;i<=nums.length;i++)
-        {
-            for(int j =0;j<=target;j++)
-            {
-                if(j-nums[i-1] >= 0)
-                {
-                    dp[i][j] = dp[i-1][j] | dp[i-1][j-nums[i-1]];
-                }
-                else
-                dp[i][j] = dp[i-1][j];
-            }
-        }
-
-        return dp[nums.length][target];
-
+        return ans(nums , 0 , sum/2 , memo);
     }
 }
