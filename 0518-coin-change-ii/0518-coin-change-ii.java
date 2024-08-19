@@ -1,28 +1,29 @@
 class Solution {
+
+    public int ans(int amount , int[] coins , int[][] memo , int ind)
+    {
+        if(amount == 0)
+        return 1;
+        if(ind == coins.length)
+        return 0;
+
+        if(memo[ind][amount] != -1)
+        return memo[ind][amount];
+
+        int np = ans(amount ,coins , memo ,  ind+1);
+        int p =0;
+        if(amount >= coins[ind])
+        p = ans(amount-coins[ind] ,coins , memo ,  ind);
+
+        return memo[ind][amount] = np+p;
+    }
     public int change(int amount, int[] coins) {
-
-        int[][] dp = new int[coins.length+1][amount+1];
-
-        for(int i =0;i<coins.length;i++)
-        {
-            dp[i][0] = 1;
-        }
         
-        for(int i =1;i<=coins.length;i++)
-        {
-            for(int j =0;j<=amount;j++)
-            {
-                if(j-coins[i-1] >=0 )
-                {
-                    dp[i][j] = dp[i-1][j]+dp[i][j-coins[i-1]] ;
-                }
-                else
-                {
-                    dp[i][j] = dp[i-1][j];
-                }
-            }
-        }
+        int[][] memo = new int[coins.length+1][amount+1];
 
-        return dp[coins.length][amount];
+        for(int i =0;i<=coins.length;i++)
+        Arrays.fill(memo[i] , -1);
+
+        return ans(amount , coins , memo , 0);
     }
 }
