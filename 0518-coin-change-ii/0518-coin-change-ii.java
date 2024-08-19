@@ -4,7 +4,7 @@ class Solution {
     {
         if(amount == 0)
         return 1;
-        if(ind == coins.length)
+        if(ind == coins.length || amount <0)
         return 0;
 
         if(memo[ind][amount] != -1)
