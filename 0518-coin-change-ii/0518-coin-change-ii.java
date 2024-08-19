@@ -4,7 +4,7 @@ class Solution {
     {
         if(amount == 0)
         return 1;
-        if(ind == coins.length || amount <0)
+        if(ind >= coins.length || amount <0)
         return 0;
 
         if(memo[ind][amount] != -1)
@@ -19,10 +19,10 @@ class Solution {
     }
     public int change(int amount, int[] coins) {
         
-        int[][] memo = new int[coins.length+1][amount+1];
+        int[][] memo = new int[coins.length][amount+1];
 
-        for(int i =0;i<=coins.length;i++)
-        Arrays.fill(memo[i] , -1);
+        for(int[] row:memo)
+        Arrays.fill(row , -1);
 
         return ans(amount , coins , memo , 0);
     }
