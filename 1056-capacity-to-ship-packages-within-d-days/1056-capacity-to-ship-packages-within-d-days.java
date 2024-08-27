@@ -1,59 +1,54 @@
 class Solution {
 
-    public int least(int[] weights , int capacity)
+    public boolean check(int[] arr , int days , int mid)
     {
-        int cap = 0;
-        int days=0;
-
-        for(int i = 0;i<weights.length;i++)
+        int count = 0;
+        int sum = 0;
+        for(int i = 0;i<arr.length;i++)
         {
-            cap += weights[i];
-            if(cap <= capacity)
-            {
-                continue;
-            }
+            sum+=arr[i];
+
+            if(sum <= mid)
+            continue;
             else
             {
-                days++;
-                cap = weights[i];
+                count++;
+                sum = arr[i];
             }
         }
-      //  System.out.println(capacity +" "+ days);
-        return days+1;
-    }
 
+        return (count+1)<=days;
+    }
     public int shipWithinDays(int[] weights, int days) {
         
-        int max = weights[0];
-        int sum = weights[0];
-
-        for(int i =1;i<weights.length;i++)
-        {
-            if(weights[i] > max)
-            max = weights[i];
-            sum+=weights[i];
-        }
-
-        int start = max;
-        int end = sum;
+        int max =0;
+        int sum = 0;
         int ans = Integer.MAX_VALUE;
 
-        while(start <= end)
+        for(int i : weights)
         {
-            int mid = (start + end)/2;
+            sum+=i;
+            max = Math.max(max , i);
+        }
 
-            if(least(weights , mid) <= days)
+        int left = max;
+        int right = sum;
+
+        while(left <= right)
+        {
+            int mid = (left+right)/2;
+
+            if(check(weights , days , mid))
             {
-                ans = Math.min(ans ,mid);
-                end = mid-1;
+                ans = Math.min(mid , ans);
+                right = mid-1;
             }
             else
-            {
-                start = mid+1;
-            }
+            left = mid+1;
+
         }
-            return ans;
 
-
+        return ans;
+    
     }
 }
