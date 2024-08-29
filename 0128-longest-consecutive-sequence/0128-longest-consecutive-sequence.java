@@ -10,12 +10,8 @@ class Solution {
 
         while(i<nums.length)
         {
-            if(s.contains(nums[i] -1)){
-            i++;
-            continue;
-            }
-            else
-            {
+            if(!s.contains(nums[i] -1)){
+
                 int c = 1;
                 int x = nums[i];
                 while(s.contains(x+1)){
