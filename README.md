@@ -468,6 +468,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0023-merge-k-sorted-lists) |
+| [0206-reverse-linked-list](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0206-reverse-linked-list) |
 ## Merge Sort
 |  |
 | ------- |
@@ -514,6 +515,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0044-wildcard-matching](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0044-wildcard-matching) |
 | [0050-powx-n](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0050-powx-n) |
+| [0206-reverse-linked-list](https://github.com/neeltulsiani007/DSA_leetcode/tree/master/0206-reverse-linked-list) |
 ## Combinatorics
 |  |
 | ------- |
