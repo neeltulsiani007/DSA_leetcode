@@ -1,48 +1,44 @@
 class Solution {
-    public static boolean checkbrace(char c2 , char c1)
-    {
-        if(c1 == '(' && c2 == ')')
+    public boolean isValid(String t) {
+        Stack<Character> s = new Stack<>();
+
+        for(char c : t.toCharArray())
         {
-            return true;
-        }
-        else if(c1 == '{' && c2 == '}')
-        {
-            return true;
-        }
-        else if(c1 == '[' && c2 == ']')
-        {
-            return true;
-        }
-        else
-        return false;
-    }
-    public boolean isValid(String s) {
-        
-        Stack<Character> st = new Stack<>();
-        for(char c : s.toCharArray())
-        {
-            if(c == '(' || c == '{' || c=='[')
+            if(c == '(' || c == '[' || c == '{')
             {
-                st.push(c);
+                s.push(c);
             }
-            else if(c == ')' || c=='}' || c==']')
+            else if(c == ')')
             {
-                if(st.isEmpty())
+                if(s.isEmpty())
                 return false;
-                System.out.println(c+" "+st.peek());
-                if(checkbrace(c,st.peek()))
-                {
-                    st.pop();
-                }
+                if(s.peek() == '(')
+                s.pop();
                 else
-                {
-                    return false;
-                }
+                return false;
             }
+            else if(c == '}')
+            {
+                if(s.isEmpty())
+                return false;
+                if(s.peek() == '{')
+                s.pop();
+                else
+                return false;
+            }
+            else if(c == ']')
+            {
+                if(s.isEmpty())
+                return false;
+                if(s.peek() == '[')
+                s.pop();
+                else
+                return false;
+            }
+
         }
-        if(st.isEmpty())
+        if(s.isEmpty())
         return true;
-        else
         return false;
     }
 }
