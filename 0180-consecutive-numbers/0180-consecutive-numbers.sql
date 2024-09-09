@@ -1,0 +1,1 @@
+select distinct(a1.num) as ConsecutiveNums from Logs a1 join Logs a2 on a1.id = a2.id-1 join Logs a3 on a1.id = a3.id-2 where a1.num = a2.num and a2.num = a3.num;
