@@ -1,0 +1,1 @@
+select p1.customer_id from Customer p1 group by p1.customer_id having count(distinct product_key) = (select count(*) from Product);
